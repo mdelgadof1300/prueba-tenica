@@ -256,36 +256,44 @@ const AddUserForm = () => {
                   />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField
-                    autoComplete="Area"
-                    name="Area"
-                    variant="outlined"
-                    id="Area"
-                    label="Área"
+                  <InputLabel id="demo-simple-select-label">Área</InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
                     value={user.area}
+                    label="Área"
                     onChange={(e) =>
                       setUser({
                         ...user,
                         area: e.target.value,
                       })
                     }
-                  />
+                  >
+                    <MenuItem value={10}>Sistemas</MenuItem>
+                    <MenuItem value={20}>Recursos Humanos</MenuItem>
+                    <MenuItem value={30}>Finanzas</MenuItem>
+                  </Select>
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField
-                    autoComplete="jefeInmediato"
-                    name="jefeInmediato"
-                    variant="outlined"
-                    id="jefeInmediato"
-                    label="Jefe Inmediato"
-                    value={user.jefeInmediato}
+                  <InputLabel id="demo-simple-select-label">
+                    Jefe inmediato
+                  </InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    value={user.area}
+                    label="Jefe inmediato"
                     onChange={(e) =>
                       setUser({
                         ...user,
-                        jefeInmediato: e.target.value,
+                        area: e.target.value,
                       })
                     }
-                  />
+                  >
+                    <MenuItem value={10}>Miguel Delgado</MenuItem>
+                    <MenuItem value={20}>Sara Jocabed</MenuItem>
+                    <MenuItem value={30}>José Méndez</MenuItem>
+                  </Select>
                 </Grid>
               </Grid>
               <br></br>
