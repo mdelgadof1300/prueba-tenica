@@ -64,8 +64,6 @@ public class Trabajador {
     @LazyCollection(LazyCollectionOption.FALSE)
     private List<Asistencia> asistencias;
 
-    public Trabajador() {
-    }
 
     public Trabajador(String nombre, String apellidoPaterno, String apellidoMaterno) {
         this.nombre = nombre;
