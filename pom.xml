@@ -15,7 +15,7 @@
 	<description>A simple todo REST API with Spring Boot</description>
 
 	<properties>
-		<java.version>12</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 
