@@ -1,9 +1,7 @@
-# Todo REST API
+# Crud REST API
 
 
-The following is simple todo REST API using the [Spring Boot Framework](https://spring.io/projects/spring-boot). The API allow you to
-add item to a to-do list, update, select and remove from the list.
-
+Prueba técnica para HabilMX con React y Springboot
 
 
 ##  Concepts used in this Application
@@ -24,7 +22,6 @@ add item to a to-do list, update, select and remove from the list.
 
 
 
-##  Application Demo with [Postman](https://www.postman.com/):
 
 
 
